@@ -30,4 +30,4 @@ mkdir output
 ./DeepSpeech.py --train_files $HOME/dsbb/train_rel.csv --test_files $HOME/dsbb/test_rel.csv --dev_files $HOME/dsbb/dev_rel.csv --checkpoint_dir cp --export_dir output
 ```
 
-
+The oracle model can be downloaded at https://github.com/mozilla/DeepSpeech/releases/download/v0.1.0/deepspeech-0.1.0-models.tar.gz
